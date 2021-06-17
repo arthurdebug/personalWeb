@@ -1,0 +1,137 @@
+
+#aboutme {
+    width: 100%;
+    height: 90%;
+    background-image:url(./image/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+  }
+  
+  #aboutme h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -80%);
+  }
+  
+  #aboutme h2 {
+    color: #eee;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+      float: left;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  @media (min-width: 1024px) {
+    #aboutme {
+      background-attachment: fixed;
+
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #aboutme h1 {
+      font-size: 28px;
+      line-height: 36px;
+      position: relative;
+      float: left;
+      top: 50%;
+      left: 50%;
+      transform: translate(-60%, -80%);
+    }
+    #aboutme h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      position: relative;
+      float: left;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  
+#background{
+  width: 100%;
+    height: 100%;
+    background: url("background1.jpg") center center;
+    background-size: cover;
+    font-size: 28px;
+    color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+#hobby{
+  width: 100%;
+  height: 200%;
+  background-image: url(./image/back2.jpg);
+  display: flexbox;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: sticky;
+
+}
+#hobby i{
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#hobby h2{
+  display: flex;
+  justify-content: space-evenly;
+}
+#hobby p{
+  padding-bottom: 40%;
+}
+#contact{
+  background-image: url("https://source.unsplash.com/random/1280x800/?nature,water");
+  background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+#contact h1 {
+    font-size: 28px;
+    line-height: 36px;
+    color: floralwhite;
+    background-color: cornflowerblue;
+  }
+  #container{
+    display:flexbox
+    
+  }
+.card{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
